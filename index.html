@@ -1,74 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product list with cart</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<title>Frontend Mentor | Product list with cart</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/media.css" />
+	</head>
+	<body>
+		<section>
+			<main>
+				<h1 class="title">Desserts</h1>
+				<div class="products">
+					<div class="product">
+						<img
+							src="./assets/images/image-waffle-desktop.jpg"
+							alt="Apple Pie"
+						/>
+						<div class="product-info">
+							<p>Waffle</p>
+							<h2>Waffle with Berries</h2>
+							<p>$12.99</p>
+						</div>
+						<button class="add-to-cart">Add to Cart</button>
+						<div class="quantity-controls" style="display: none">
+							<button>
+								<img
+									src="assets/images/icon-decrement-quantity.svg"
+									alt=""
+								/>
+							</button>
+							<span class="quantity">0</span>
+							<button>
+								<img
+									src="assets/images/icon-increment-quantity.svg"
+									alt=""
+								/>
+							</button>
+						</div>
+					</div>
+					<div class="product">
+						<img
+							src="./assets/images/image-waffle-desktop.jpg"
+							alt="Apple Pie"
+						/>
+						<div class="product-info">
+							<p>Waffle</p>
+							<h2>Waffle with Berries</h2>
+							<p>$12.99</p>
+						</div>
+						<button class="add-to-cart">Add to Cart</button>
+						<div class="quantity-controls" style="display: none">
+							<button>
+								<img
+									src="assets/images/icon-decrement-quantity.svg"
+									alt=""
+								/>
+							</button>
+							<span class="quantity">0</span>
+							<button>
+								<img
+									src="assets/images/icon-increment-quantity.svg"
+									alt=""
+								/>
+							</button>
+						</div>
+					</div>
+					<div class="product">
+						<img
+							src="./assets/images/image-waffle-desktop.jpg"
+							alt="Apple Pie"
+						/>
+						<div class="product-info">
+							<p>Waffle</p>
+							<h2>Waffle with Berries</h2>
+							<p>$12.99</p>
+						</div>
+						<button class="add-to-cart">Add to Cart</button>
+						<div class="quantity-controls" style="display: none">
+							<button>
+								<img
+									src="assets/images/icon-decrement-quantity.svg"
+									alt=""
+								/>
+							</button>
+							<span class="quantity">0</span>
+							<button>
+								<img
+									src="assets/images/icon-increment-quantity.svg"
+									alt=""
+								/>
+							</button>
+						</div>
+					</div>
+				</div>
+			</main>
+			<div>
+				<h2>Your Cart ()</h2>
+				<div class="cart-items">
+					<!-- Your added items will appear here -->
+					<p>Your added items will appear here</p>
+					<ul>
+						<li>Home</li>
+					</ul>
+				</div>
+			</div>
+		</section>
 
-  Desserts
-
-  Waffle with Berries
-  Waffle
-  6.50
-  Add to Cart
-
-  Vanilla Bean Crème Brûlée
-  Crème Brûlée
-  7.00
-  Add to Cart
-
-  Macaron Mix of Five
-  Macaron
-  8.00
-  Add to Cart
-
-  Classic Tiramisu
-  Tiramisu
-  5.50
-  Add to Cart
-
-  Pistachio Baklava
-  Baklava
-  4.00
-  Add to Cart
-
-  Lemon Meringue Pie
-  Pie
-  5.00
-  Add to Cart
-
-  Red Velvet Cake
-  Cake
-  4.50
-  Add to Cart
-
-  Salted Caramel Brownie
-  Brownie
-  4.50
-  Add to Cart
-
-  Vanilla Panna Cotta
-  Panna Cotta
-  6.50
-  Add to Cart
-
-  Your Cart (<!-- Quantity -->)
-  Your added items will appear here
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<!-- <div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div> -->
+		<!-- Your Cart ()
+		Your added items will appear here -->
+		<script src="js/index.js"></script>
+	</body>
 </html>

@@ -1,0 +1,67 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"title": "Waffle",
+			"name": "Waffle with Berries",
+			"price": 6.5,
+			"image": "images/image-waffle-desktop.jpg.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Creme Brulee",
+			"name": "Vanilla Bean Crème Brûlée",
+			"price": 7.0,
+			"image": "images/image-creme-brulee-desktop.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Macaron",
+			"name": "Macaron Mix of Five",
+			"price": 8.0,
+			"image": "images/image-raspberry-pavlova.jpg"
+		},
+		{
+			"id": 4,
+			"title": "Tiramisu",
+			"name": "Classic Tiramisu",
+			"price": 5.5,
+			"image": "images/image-tiramisu-desktop.jpg"
+		},
+		{
+			"id": 5,
+			"title": "Baklava",
+			"name": "Pistachio Baklava",
+			"price": 4.0,
+			"image": "images/image-baklava-desktop.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Pie",
+			"name": "Lemon Meringue Pie",
+			"price": 5.0,
+			"image": "images/image-panna-cotta-desktop.jpg"
+		},
+		{
+			"id": 7,
+			"title": "Panna Cotta",
+			"name": "Vanilla Panna Cotta",
+			"price": 6.5,
+			"image": "images/image-panna-cotta-desktop.jpg"
+		},
+		{
+			"id": 8,
+			"title": "Cake",
+			"name": "Red Velvet Cake",
+			"price": 4.5,
+			"image": "images/image-raspberry-pavlova.jpg"
+		},
+		{
+			"id": 9,
+			"title": "Brownie",
+			"name": "Salted Caramel Brownie",
+			"price": 5.5,
+			"image": "images/image-tiramisu-desktop.jpg"
+		}
+	]
+}
